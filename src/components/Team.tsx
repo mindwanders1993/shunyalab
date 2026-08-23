@@ -36,6 +36,17 @@ export default function Team() {
       color: "bg-sky-100 text-sky-800 border-sky-200",
       experience: "Platform Lead",
     },
+    {
+      name: "Arup Patra",
+      role: "Frontend & UI Developer",
+      focus: "React • Tailwind CSS • Component Architecture",
+      bio: "Crafts beautiful, responsive, and accessible user interfaces. Ensures pixel-perfect implementation of designs and smooth frontend experiences.",
+      linkedin: "https://www.linkedin.com/in/arup-patra/",
+      initials: "AP",
+      image: "/arup.png",
+      color: "bg-amber-100 text-amber-800 border-amber-200",
+      experience: "Frontend Developer",
+    },
   ];
 
   return (
@@ -53,7 +64,7 @@ export default function Team() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {teamMembers.map((member) => (
             <div
               key={member.name}
