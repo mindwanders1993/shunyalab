@@ -1,0 +1,11 @@
+services:
+  shunyalabs-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: shunyalabs-consulting-web
+    restart: unless-stopped
+    ports:
+      - "3010:3000"
+    environment:
+      NODE_ENV: production
