@@ -25,7 +25,7 @@ export default function SocialProof() {
             </div>
             <div className="flex items-center gap-2 font-bold text-stone-800 text-lg tracking-tight">
               <span className="w-2.5 h-2.5 rounded-full bg-sky-500" />
-              <span>Local MSME Growth</span>
+              <span>B2B Logistics (NDA)</span>
             </div>
           </div>
         </div>

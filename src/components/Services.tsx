@@ -20,7 +20,7 @@ export default function Services() {
       tagColor: "bg-brand-50 text-brand-800 border-brand-200",
     },
     {
-      title: "Digital Growth & Local Engine",
+      title: "Local Search & Customer Growth",
       icon: Store,
       tag: "Revenue Acceleration",
       description:
