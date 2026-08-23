@@ -15,13 +15,13 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ShunyaLabs (शून्य Labs) — Scalable SaaS, AI & Autonomous Systems",
-  description: "A modern Teal technology consulting studio & venture lab. We build high-converting web presences, intelligent automated workflows, and scalable B2B SaaS platforms.",
-  keywords: ["ShunyaLabs", "Teal Organization", "SaaS Studio", "FastAPI", "Next.js", "AI Automation", "ATS", "MSME Growth"],
-  authors: [{ name: "ShunyaLabs Engineering Team" }],
+  title: "ShunyaLabs — Software Consulting & Custom Systems Engineering",
+  description: "We build custom SaaS software, automated workflows, and digital growth engines for founders and growing businesses. Delivered in 4–8 weeks with 100% code ownership.",
+  keywords: ["ShunyaLabs", "Software Consulting", "SaaS Development", "Custom Software", "Next.js", "FastAPI", "Digital Growth", "Bangalore Software Agency"],
+  authors: [{ name: "ShunyaLabs Team" }],
   openGraph: {
-    title: "ShunyaLabs — From Zero to Infinite Architecture",
-    description: "Engineering scalable SaaS, AI, and autonomous data systems with zero middle-management overhead.",
+    title: "ShunyaLabs — Software Consulting for Growing Businesses",
+    description: "Custom software platforms, intelligent automations, and high-conversion web systems delivered directly by experienced engineers.",
     url: "https://shunyalabs.com",
     siteName: "ShunyaLabs",
     locale: "en_US",
@@ -35,8 +35,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark scroll-smooth">
-      <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans bg-background text-foreground antialiased min-h-screen selection:bg-brand-500/20 selection:text-brand-300`}>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans bg-background text-foreground antialiased min-h-screen selection:bg-brand-100 selection:text-brand-900`}>
         {children}
       </body>
     </html>

@@ -1,107 +1,104 @@
 import React from "react";
-import { ExternalLink, CheckCircle2, TrendingUp, Layers, Award, Terminal } from "lucide-react";
+import { ExternalLink, CheckCircle2, TrendingUp, ArrowRight } from "lucide-react";
 
 export default function Portfolio() {
   const projects = [
     {
       title: "Hopping Cars",
-      category: "MSME Local SEO & Multi-Service Storefront",
+      category: "Local SEO & Customer Lead Engine",
       liveUrl: "https://hoppingcars.com/car-painting-begur-bangalore.html",
       tag: "Live Client Success",
       description:
-        "End-to-end digital revenue transformation for a premier multi-brand car service & painting workshop in Begur, Bangalore. Engineered localized landing pages ranking top on Google Search for high-intent automotive keywords.",
+        "End-to-end digital revenue transformation for a premier multi-brand car workshop in Begur, Bangalore. Engineered localized web pages that rank on the first page of Google for high-intent automotive repair searches.",
       metrics: [
-        { label: "Local Keywords Ranked", value: "#1 on Google" },
-        { label: "Monthly Organic Leads", value: "300+ Calls/Chats" },
-        { label: "Page Speed Score", value: "98/100 Mobile" },
+        { label: "Google Local Search", value: "Rank #1 in Begur" },
+        { label: "Inbound Customer Leads", value: "300+ Calls/Mo" },
+        { label: "Mobile Experience Score", value: "98/100 Speed" },
       ],
-      techStack: ["Next.js", "Tailwind CSS", "Local GBP Schema", "WhatsApp Direct Funnel"],
       highlights: [
-        "Hyper-local keyword clusters targeting Begur Road & South Bangalore",
-        "Direct-to-WhatsApp booking CTA with automated service intent capture",
-        "Google Rich Snippets for automotive repairs & customer reviews",
+        "Hyper-local keyword clustering driving high-ticket car repair leads",
+        "Direct WhatsApp conversion funnel with automated service intent capture",
+        "Google rich snippet integration for genuine customer star ratings",
       ],
     },
     {
       title: "KaizenCodes",
-      category: "Engineering Intelligence & Learning Platform",
+      category: "Engineering Learning Platform & SaaS",
       liveUrl: "https://dev.kaizencodes.com",
       tag: "Autonomous SaaS",
       description:
-        "High-performance technical interview preparation platform and engineering knowledge engine. Designed to help developers achieve mastery across distributed systems, algorithms, and system design.",
+        "High-performance interactive technical interview preparation platform and engineering knowledge engine. Built to deliver zero-latency problem solving for software engineers worldwide.",
       metrics: [
-        { label: "Interactive Problem Sets", value: "500+ Challenges" },
-        { label: "Latency to Execution", value: "< 150ms" },
-        { label: "Active Engineers", value: "Growing Community" },
+        { label: "Interactive Challenges", value: "500+ Curated" },
+        { label: "Global Platform Latency", value: "< 150ms" },
+        { label: "Community Growth", value: "Engineers Worldwide" },
       ],
-      techStack: ["React / Next.js", "TypeScript", "Tailwind CSS", "Interactive Sandbox"],
       highlights: [
         "Surgical question curation with step-by-step Socratic breakdowns",
-        "Clean, dark-mode developer UI with zero distracting clutter",
-        "Architectural problem deep dives and live code playgrounds",
+        "Distraction-free interface engineered for fast developer workflow",
+        "Sub-second interactive execution sandbox with zero setup",
       ],
     },
     {
       title: "Autonomous AI & Knowledge Pipelines",
-      category: "Data Harvester & Semantic Intelligence",
+      category: "Automated Data Processing & AI Search",
       liveUrl: "#contact",
-      tag: "Client Solution",
+      tag: "Enterprise Automation",
       description:
-        "High-throughput multi-agent web scraping and semantic search engine built for automated enterprise data extraction, structured JSON normalization, and vector search querying.",
+        "Automated multi-agent web data extraction and semantic search engine. Eliminates hours of manual data entry by extracting, structuring, and indexing market data directly into client databases.",
       metrics: [
-        { label: "Data Extraction Throughput", value: "10,000+ docs/hr" },
-        { label: "Pipeline Latency", value: "< 200ms" },
-        { label: "Infrastructure Cost Reduction", value: "70% vs Third-Party" },
+        { label: "Data Processing Speed", value: "10,000+ docs/hr" },
+        { label: "Manual Labor Reduction", value: "90% Time Saved" },
+        { label: "Cost vs Commercial Tools", value: "70% Cost Savings" },
       ],
-      techStack: ["FastAPI (Python 3.13)", "PostgreSQL (pgvector)", "Next.js", "Redis"],
       highlights: [
-        "Headless distributed crawlers with anti-bot evasion & proxy rotation",
-        "Automated schema mapping and LLM entity extraction pipelines",
-        "Real-time analytics dashboard with zero vendor lock-in",
+        "Automated document normalization with zero manual copy-pasting",
+        "Semantic AI search enabling natural language company data queries",
+        "Full client data ownership hosted on private secure cloud servers",
       ],
     },
   ];
 
   return (
-    <section id="portfolio" className="py-24 relative bg-zinc-950/80 border-t border-zinc-800/80">
+    <section id="portfolio" className="py-24 bg-white border-t border-stone-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-400 mb-4">
-            <span>REAL-WORLD CASE STUDIES</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-100 border border-stone-200 text-xs font-semibold text-stone-600 mb-4 shadow-sm">
+            <span>PROVEN CASE STUDIES</span>
           </div>
-          <h2 className="text-3xl sm:text-5xl font-extrabold text-zinc-100 tracking-tight mb-4">
-            Proven <span className="text-brand-400">Engineering Work</span>
+          <h2 className="text-3xl sm:text-5xl font-extrabold text-stone-900 tracking-tight mb-4">
+            Verified Results for <span className="text-brand-600">Real Businesses</span>
           </h2>
-          <p className="text-zinc-400 text-base sm:text-lg">
-            We let our production deployments speak for themselves. Strictly zero synthetic mockup projects — only battle-tested code running in the wild.
+          <p className="text-stone-600 text-base sm:text-lg">
+            Every project below is running in live production, solving tangible business challenges and generating measurable returns.
           </p>
         </div>
 
         <div className="space-y-12">
-          {projects.map((project, idx) => (
+          {projects.map((project) => (
             <div
               key={project.title}
-              className="rounded-3xl bg-zinc-900/60 border border-zinc-800 p-8 sm:p-10 glass-panel-hover flex flex-col lg:flex-row gap-8 lg:gap-12 items-start"
+              className="rounded-3xl bg-stone-50 border border-stone-200 p-8 sm:p-10 card-clean-hover flex flex-col lg:flex-row gap-8 lg:gap-12 items-start"
             >
               {/* Left Column: Details */}
               <div className="flex-1">
                 <div className="flex flex-wrap items-center gap-3 mb-4">
-                  <span className="text-xs font-mono px-3 py-1 rounded-full bg-brand-500/10 text-brand-400 border border-brand-500/30">
+                  <span className="text-xs font-semibold px-3 py-1 rounded-full bg-brand-100 text-brand-800 border border-brand-200">
                     {project.tag}
                   </span>
-                  <span className="text-xs text-zinc-500 font-mono">
+                  <span className="text-xs text-stone-500 font-medium">
                     {project.category}
                   </span>
                 </div>
 
-                <h3 className="text-2xl sm:text-3xl font-bold text-zinc-100 mb-3 flex items-center gap-3">
+                <h3 className="text-2xl sm:text-3xl font-bold text-stone-900 mb-3 flex items-center gap-3">
                   <span>{project.title}</span>
                   {project.liveUrl.startsWith("http") && (
                     <a
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-zinc-400 hover:text-brand-400 transition-colors"
+                      className="text-stone-400 hover:text-brand-600 transition-colors"
                       title="View Live Site"
                     >
                       <ExternalLink className="w-5 h-5" />
@@ -109,46 +106,34 @@ export default function Portfolio() {
                   )}
                 </h3>
 
-                <p className="text-sm sm:text-base text-zinc-400 mb-6 leading-relaxed">
+                <p className="text-sm sm:text-base text-stone-600 mb-6 leading-relaxed">
                   {project.description}
                 </p>
 
                 {/* Highlights List */}
-                <div className="space-y-2 mb-6">
+                <div className="space-y-2.5 mb-6">
                   {project.highlights.map((item, hIdx) => (
-                    <div key={hIdx} className="flex items-center gap-2.5 text-xs sm:text-sm text-zinc-300">
-                      <CheckCircle2 className="w-4 h-4 text-brand-400 shrink-0" />
+                    <div key={hIdx} className="flex items-center gap-2.5 text-sm text-stone-700">
+                      <CheckCircle2 className="w-4 h-4 text-brand-600 shrink-0" />
                       <span>{item}</span>
                     </div>
                   ))}
                 </div>
-
-                {/* Tech Stack Pills */}
-                <div className="flex flex-wrap gap-2 pt-4 border-t border-zinc-800">
-                  {project.techStack.map((tech) => (
-                    <span
-                      key={tech}
-                      className="text-xs font-mono px-2.5 py-1 rounded-md bg-zinc-950 border border-zinc-800 text-zinc-400"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
               </div>
 
-              {/* Right Column: Metrics Grid */}
+              {/* Right Column: Outcomes Box */}
               <div className="w-full lg:w-80 shrink-0">
-                <div className="rounded-2xl bg-zinc-950/80 border border-zinc-800/80 p-6 space-y-4">
-                  <div className="text-xs font-mono text-zinc-500 uppercase tracking-wider mb-2 flex items-center gap-2">
-                    <TrendingUp className="w-4 h-4 text-brand-400" />
+                <div className="rounded-2xl bg-white border border-stone-200 p-6 space-y-4 shadow-sm">
+                  <div className="text-xs font-semibold text-stone-500 uppercase tracking-wider mb-2 flex items-center gap-2">
+                    <TrendingUp className="w-4 h-4 text-brand-600" />
                     <span>Verified Outcomes</span>
                   </div>
                   {project.metrics.map((m, mIdx) => (
-                    <div key={mIdx} className="border-b border-zinc-800/60 pb-3 last:border-0 last:pb-0">
-                      <div className="text-xl sm:text-2xl font-bold font-mono text-zinc-100 text-brand-300">
+                    <div key={mIdx} className="border-b border-stone-100 pb-3 last:border-0 last:pb-0">
+                      <div className="text-xl sm:text-2xl font-bold text-stone-900">
                         {m.value}
                       </div>
-                      <div className="text-xs text-zinc-400 mt-0.5">{m.label}</div>
+                      <div className="text-xs text-stone-500 mt-0.5">{m.label}</div>
                     </div>
                   ))}
 
@@ -157,7 +142,7 @@ export default function Portfolio() {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="mt-4 flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-xl text-xs font-semibold font-mono bg-zinc-900 border border-zinc-700 hover:border-brand-400 text-zinc-200 hover:text-brand-300 transition-all"
+                      className="mt-4 flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-xl text-xs font-semibold bg-stone-900 text-white hover:bg-stone-800 transition-all"
                     >
                       <span>Visit Live Platform</span>
                       <ExternalLink className="w-3.5 h-3.5" />
@@ -165,9 +150,9 @@ export default function Portfolio() {
                   ) : (
                     <a
                       href="#contact"
-                      className="mt-4 flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-xl text-xs font-semibold font-mono bg-brand-500/10 border border-brand-500/30 hover:bg-brand-500/20 text-brand-300 transition-all"
+                      className="mt-4 flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-xl text-xs font-semibold bg-brand-50 text-brand-800 border border-brand-200 hover:bg-brand-100 transition-all"
                     >
-                      <span>Request Demo</span>
+                      <span>Request Similar System</span>
                     </a>
                   )}
                 </div>

@@ -9,8 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#09090b",
-        foreground: "#f4f4f5",
+        background: "#FAFAF9",
+        foreground: "#1C1917",
+        surface: {
+          DEFAULT: "#FFFFFF",
+          muted: "#F5F5F4",
+          border: "#E7E5E4",
+        },
         brand: {
           50: "#f0fdfa",
           100: "#ccfbf1",
@@ -25,12 +30,13 @@ const config: Config = {
           950: "#042f2e",
         },
         accent: {
-          emerald: "#34d399",
-          cyan: "#22d3ee",
+          emerald: "#10b981",
+          cyan: "#06b6d4",
+          amber: "#f59e0b",
         },
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "sans-serif"],
+        sans: ["var(--font-inter)", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "sans-serif"],
         mono: ["var(--font-geist-mono)", "monospace"],
       },
     },

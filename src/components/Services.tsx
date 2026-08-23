@@ -4,64 +4,67 @@ import { Layers, Store, BrainCircuit, Check, ArrowRight } from "lucide-react";
 export default function Services() {
   const serviceList = [
     {
-      title: "B2B SaaS & Autonomous Platforms",
+      title: "Custom Software & B2B SaaS",
       icon: Layers,
       tag: "Product Studio",
       description:
-        "We build, test, and deploy bespoke modular SaaS software tailored to modern business workflows.",
+        "Turn your product concept or internal workflow into a reliable, custom web application that scales effortlessly.",
       features: [
-        "Modular B2B SaaS & Workflow Automation Portals",
-        "Multi-Agent Web Crawlers & Knowledge Harvesters",
-        "Bespoke Internal Admin Dashboards & CRM Engines",
-        "Zero-Egress Cloud Storage (Cloudflare R2 / S3)",
+        "Custom web platforms and customer portals",
+        "Role-based internal admin dashboards and back-offices",
+        "High-performance databases engineered for zero data loss",
+        "Low-cost cloud infrastructure with zero vendor lock-in",
       ],
       link: "#contact",
-      color: "border-brand-500/30 text-brand-400 bg-brand-500/10",
+      color: "bg-brand-50 text-brand-700 border-brand-200",
+      tagColor: "bg-brand-50 text-brand-800 border-brand-200",
     },
     {
-      title: "MSME Digital Growth Engine",
+      title: "Digital Growth & Local Engine",
       icon: Store,
       tag: "Revenue Acceleration",
       description:
-        "Full-funnel digital transformation for high-potential local businesses (₹1–2 Cr ARR).",
+        "High-impact local search visibility and automated WhatsApp conversion funnels designed for established service businesses.",
       features: [
-        "Google Business Profile (GBP) & Hyper-Local SEO",
-        "High-Conversion Static Landing Pages & Lead Capture",
-        "WhatsApp Cloud API CRM with Automated AI Qualification",
-        "Digital Job Cards, Invoicing & Back-Office Ledger",
+        "Google Business Profile optimization & #1 local SEO rankings",
+        "Lightning-fast landing pages optimized for customer calls",
+        "WhatsApp CRM with automated lead capture & qualification",
+        "Digital job cards, instant invoicing & customer records",
       ],
       link: "#contact",
-      color: "border-accent-emerald/30 text-accent-emerald bg-accent-emerald/10",
+      color: "bg-emerald-50 text-emerald-700 border-emerald-200",
+      tagColor: "bg-emerald-50 text-emerald-800 border-emerald-200",
     },
     {
-      title: "AI & Scalable Cloud Engineering",
+      title: "AI Workflows & Cloud Systems",
       icon: BrainCircuit,
-      tag: "Systems Architecture",
+      tag: "Systems & Automation",
       description:
-        "Enterprise-grade modern stacks engineered for zero latency, rock-solid security, and effortless scaling.",
+        "Save your team 15+ hours every week by automating repetitive back-office data processing and business logic.",
       features: [
-        "FastAPI (Python) Async High-Throughput Microservices",
-        "Next.js 14/15 React Server Components & Edge SSR",
-        "PostgreSQL 15+ ACID Relational + JSONB Architecture",
-        "LLM & Semantic Search Integration (Gemini / Claude)",
+        "Automated data extraction and structured document parsing",
+        "Intelligent customer query routing and AI assistants",
+        "Secure cloud microservices with sub-second response times",
+        "Continuous backups, monitoring, and 99.9% uptime setups",
       ],
       link: "#contact",
-      color: "border-accent-cyan/30 text-accent-cyan bg-accent-cyan/10",
+      color: "bg-sky-50 text-sky-700 border-sky-200",
+      tagColor: "bg-sky-50 text-sky-800 border-sky-200",
     },
   ];
 
   return (
-    <section id="services" className="py-24 relative bg-zinc-950 border-t border-zinc-800/80">
+    <section id="services" className="py-24 bg-white border-t border-stone-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-400 mb-4">
-            <span>OUR CAPABILITIES</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-100 border border-stone-200 text-xs font-semibold text-stone-600 mb-4">
+            <span>WHAT WE DO</span>
           </div>
-          <h2 className="text-3xl sm:text-5xl font-extrabold text-zinc-100 tracking-tight mb-4">
-            Bespoke Engineering for <span className="text-gradient-brand">Modern Growth</span>
+          <h2 className="text-3xl sm:text-5xl font-extrabold text-stone-900 tracking-tight mb-4">
+            Three Ways We Help <span className="text-brand-600">Your Business Grow</span>
           </h2>
-          <p className="text-zinc-400 text-base sm:text-lg">
-            We don't offer generic templates. We deliver custom software infrastructure that solves specific revenue bottlenecks.
+          <p className="text-stone-600 text-base sm:text-lg">
+            We don&apos;t build generic templates. We deliver custom software and automated workflows engineered to resolve your specific business bottlenecks.
           </p>
         </div>
 
@@ -71,25 +74,25 @@ export default function Services() {
             return (
               <div
                 key={service.title}
-                className="rounded-2xl bg-zinc-900/50 border border-zinc-800 p-8 glass-panel-hover flex flex-col justify-between"
+                className="rounded-2xl bg-white border border-stone-200 p-8 card-clean-hover flex flex-col justify-between"
               >
                 <div>
                   <div className="flex items-center justify-between mb-6">
                     <div className={`w-12 h-12 rounded-xl flex items-center justify-center border ${service.color}`}>
                       <Icon className="w-6 h-6" />
                     </div>
-                    <span className="text-xs font-mono px-2.5 py-1 rounded-full bg-zinc-950 border border-zinc-800 text-zinc-400">
+                    <span className={`text-xs font-semibold px-3 py-1 rounded-full border ${service.tagColor}`}>
                       {service.tag}
                     </span>
                   </div>
 
-                  <h3 className="text-xl font-bold text-zinc-100 mb-3">{service.title}</h3>
-                  <p className="text-sm text-zinc-400 mb-6 leading-relaxed">{service.description}</p>
+                  <h3 className="text-xl font-bold text-stone-900 mb-3">{service.title}</h3>
+                  <p className="text-sm text-stone-600 mb-6 leading-relaxed">{service.description}</p>
 
                   <div className="space-y-3 mb-8">
                     {service.features.map((feature, idx) => (
-                      <div key={idx} className="flex items-start gap-2.5 text-xs sm:text-sm text-zinc-300">
-                        <Check className="w-4 h-4 text-brand-400 shrink-0 mt-0.5" />
+                      <div key={idx} className="flex items-start gap-2.5 text-sm text-stone-700">
+                        <Check className="w-4 h-4 text-brand-600 shrink-0 mt-0.5" />
                         <span>{feature}</span>
                       </div>
                     ))}
@@ -98,10 +101,10 @@ export default function Services() {
 
                 <a
                   href={service.link}
-                  className="inline-flex items-center justify-between w-full px-4 py-3 rounded-xl bg-zinc-950 border border-zinc-800 hover:border-brand-500/40 text-sm font-medium text-zinc-300 hover:text-brand-300 transition-all group"
+                  className="inline-flex items-center justify-between w-full px-5 py-3.5 rounded-xl bg-stone-50 border border-stone-200 hover:border-brand-500 hover:bg-brand-50/50 text-sm font-semibold text-stone-800 hover:text-brand-800 transition-all group"
                 >
-                  <span>Inquire for this track</span>
-                  <ArrowRight className="w-4 h-4 text-zinc-500 group-hover:text-brand-400 group-hover:translate-x-1 transition-all" />
+                  <span>Get a Free Quote</span>
+                  <ArrowRight className="w-4 h-4 text-stone-400 group-hover:text-brand-700 group-hover:translate-x-1 transition-all" />
                 </a>
               </div>
             );
