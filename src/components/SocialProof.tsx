@@ -10,22 +10,22 @@ export default function SocialProof() {
               Trusted by Ambitious Founders & Growing Businesses
             </span>
             <p className="text-sm text-stone-700 font-medium mt-0.5">
-              Delivering verified production systems across India and global remote teams
+              Delivering verified production software across India and global remote teams
             </p>
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12">
-            <div className="flex items-center gap-2 font-bold text-stone-700 text-lg tracking-tight">
+            <div className="flex items-center gap-2 font-bold text-stone-800 text-lg tracking-tight">
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
               <span>Hopping Cars</span>
             </div>
-            <div className="flex items-center gap-2 font-bold text-stone-700 text-lg tracking-tight">
+            <div className="flex items-center gap-2 font-bold text-stone-800 text-lg tracking-tight">
               <span className="w-2.5 h-2.5 rounded-full bg-brand-600" />
               <span>KaizenCodes</span>
             </div>
-            <div className="flex items-center gap-2 font-bold text-stone-700 text-lg tracking-tight">
+            <div className="flex items-center gap-2 font-bold text-stone-800 text-lg tracking-tight">
               <span className="w-2.5 h-2.5 rounded-full bg-sky-500" />
-              <span>Harvester Studio</span>
+              <span>Local MSME Growth</span>
             </div>
           </div>
         </div>

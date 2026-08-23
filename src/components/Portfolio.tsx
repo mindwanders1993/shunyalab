@@ -40,21 +40,21 @@ export default function Portfolio() {
       ],
     },
     {
-      title: "Autonomous AI & Knowledge Pipelines",
-      category: "Automated Data Processing & AI Search",
+      title: "Custom Operations & Workflow Platform",
+      category: "B2B Operations SaaS & Back-Office Automation",
       liveUrl: "#contact",
-      tag: "Enterprise Automation",
+      tag: "Custom SaaS Solution",
       description:
-        "Automated multi-agent web data extraction and semantic search engine. Eliminates hours of manual data entry by extracting, structuring, and indexing market data directly into client databases.",
+        "Bespoke internal operations portal engineered to centralize customer orders, automated job ticketing, real-time invoicing, and back-office reporting into a single unified dashboard.",
       metrics: [
-        { label: "Data Processing Speed", value: "10,000+ docs/hr" },
-        { label: "Manual Labor Reduction", value: "90% Time Saved" },
-        { label: "Cost vs Commercial Tools", value: "70% Cost Savings" },
+        { label: "Admin Time Saved", value: "20+ hrs/week" },
+        { label: "Billing Reconciliation", value: "100% Automated" },
+        { label: "Team Adoption Rate", value: "< 3 Days" },
       ],
       highlights: [
-        "Automated document normalization with zero manual copy-pasting",
-        "Semantic AI search enabling natural language company data queries",
-        "Full client data ownership hosted on private secure cloud servers",
+        "Replaced disconnected spreadsheets with an intuitive, multi-user web portal",
+        "Automated WhatsApp status notifications and PDF invoice generation",
+        "Role-based access controls ensuring secure data management across teams",
       ],
     },
   ];

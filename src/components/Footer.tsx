@@ -92,13 +92,13 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <span className="text-stone-500">
-                  Autonomous Harvester Studio
+                <span className="text-stone-400">
+                  MSME Local Growth Engine
                 </span>
               </li>
               <li>
-                <span className="text-stone-500">
-                  WhatsApp CRM Inbound Engine
+                <span className="text-stone-400">
+                  WhatsApp CRM &amp; Lead Qualification
                 </span>
               </li>
             </ul>

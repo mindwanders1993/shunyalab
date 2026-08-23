@@ -91,9 +91,9 @@ flowchart TD
 ```mermaid
 graph TD
     subgraph "Service Offerings"
-        S1["📦 Custom SaaS & Platforms<br/>• White-Label ATS Platforms<br/>• Multi-Agent Crawlers & Knowledge Harvesters<br/>• Internal Business Automation Tools"]
+        S1["📦 Custom SaaS & Platforms<br/>• B2B SaaS Platforms & Custom Portals<br/>• Workflow Automation & Operations Engines<br/>• Internal Business Dashboards & CRM Tools"]
         S2["🚀 MSME Digital Transformation<br/>• High-Converting Local Business Storefronts<br/>• Google Business Profile (GBP) Domination<br/>• WhatsApp AI CRM & Invoicing Systems"]
-        S3["⚡ AI & Cloud Data Engineering<br/>• FastAPI & Next.js Microservices<br/>• PostgreSQL & BigQuery Pipelines<br/>• LLM & Semantic Search Integration"]
+        S3["⚡ AI & Cloud Systems Engineering<br/>• FastAPI & Next.js Microservices<br/>• PostgreSQL Relational Data Systems<br/>• Automated AI Workflows & Cloud Infrastructure"]
     end
 ```
 
