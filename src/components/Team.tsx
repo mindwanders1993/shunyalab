@@ -14,12 +14,13 @@ export default function Team() {
       experience: "Core Systems Lead",
     },
     {
-      name: "Biswa",
+      name: "Biswajit Brahmma",
       role: "Full-Stack & Growth Systems Lead",
       focus: "Next.js • Conversion UI/UX • Local Search Inbound • Web Portals",
       bio: "Engineers high-conversion web platforms, customer growth funnels, and streamlined internal admin systems. Specializes in turning complex business operations into intuitive, fast user interfaces.",
-      linkedin: "https://www.linkedin.com/in/biswa-ranjan-nayak-798835269/",
-      initials: "BN",
+      linkedin: "https://www.linkedin.com/in/biswa-isdm/",
+      initials: "BB",
+      image: "/biswajit.png",
       color: "bg-emerald-100 text-emerald-800 border-emerald-200",
       experience: "Full-Stack Lead",
     },
@@ -59,11 +60,19 @@ export default function Team() {
               <div>
                 {/* Header Avatar & Social */}
                 <div className="flex items-center justify-between mb-6">
-                  <div
-                    className={`w-14 h-14 rounded-2xl border flex items-center justify-center text-lg font-bold ${member.color}`}
-                  >
-                    {member.initials}
-                  </div>
+                  {(member as any).image ? (
+                    <img
+                      src={(member as any).image}
+                      alt={member.name}
+                      className="w-14 h-14 rounded-2xl border border-stone-200 object-cover"
+                    />
+                  ) : (
+                    <div
+                      className={`w-14 h-14 rounded-2xl border flex items-center justify-center text-lg font-bold ${member.color}`}
+                    >
+                      {member.initials}
+                    </div>
+                  )}
                   <a
                     href={member.linkedin}
                     target="_blank"
