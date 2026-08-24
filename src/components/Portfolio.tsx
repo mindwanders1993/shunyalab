@@ -24,7 +24,7 @@ export default function Portfolio() {
     {
       title: "KaizenCodes",
       category: "Engineering Learning Platform & SaaS",
-      liveUrl: "https://dev.kaizencodes.com",
+      liveUrl: "https://kaizencodes.com",
       tag: "Autonomous SaaS",
       description:
         "High-performance interactive technical interview preparation platform and engineering knowledge engine. Built to deliver zero-latency problem solving for software engineers worldwide.",

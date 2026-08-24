@@ -103,7 +103,7 @@ export default function Services() {
                   href={service.link}
                   className="inline-flex items-center justify-between w-full px-5 py-3.5 rounded-xl bg-stone-50 border border-stone-200 hover:border-brand-500 hover:bg-brand-50/50 text-sm font-semibold text-stone-800 hover:text-brand-800 transition-all group"
                 >
-                  <span>Get a Free Quote</span>
+                  <span>Get Quotation</span>
                   <ArrowRight className="w-4 h-4 text-stone-400 group-hover:text-brand-700 group-hover:translate-x-1 transition-all" />
                 </a>
               </div>
