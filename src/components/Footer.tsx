@@ -83,7 +83,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://dev.kaizencodes.com"
+                  href="https://kaizencodes.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-cyan-400 transition-colors"

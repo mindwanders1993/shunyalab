@@ -55,7 +55,7 @@ graph TD
 ```
 
 ### Project Snapshot
-*   **Live URL:** [`dev.kaizencodes.com`](https://dev.kaizencodes.com)
+*   **Live URL:** [`kaizencodes.com`](https://kaizencodes.com)
 *   **Domain:** AI-Powered Software Engineering & Data Analytics Learning Platform.
 *   **Engagement Category:** Enterprise SaaS, Multi-Agent AI Systems & Cloud Architecture.
 

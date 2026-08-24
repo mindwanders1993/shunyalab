@@ -36,7 +36,7 @@ gantt
     *   `Hero.tsx`: High-converting headline, badge, call-to-actions, and live terminal ticker.
     *   `Philosophy.tsx`: Interactive cards for Laloux's Teal Organization principles.
     *   `Services.tsx`: 3-column service offerings grid.
-    *   `Portfolio.tsx`: Case study cards featuring [Hopping Cars](https://hoppingcars.com/car-painting-begur-bangalore.html) and [KaizenCodes](https://dev.kaizencodes.com).
+    *   `Portfolio.tsx`: Case study cards featuring [Hopping Cars](https://hoppingcars.com/car-painting-begur-bangalore.html) and [KaizenCodes](https://kaizencodes.com).
     *   `Team.tsx`: Bio cards with direct LinkedIn links for Ranadeep, Biswa, and Apoorv.
     *   `Contact.tsx`: Interactive inquiry form with direct WhatsApp click-to-chat fallback.
     *   `Footer.tsx`: Studio manifesto and ecosystem links.

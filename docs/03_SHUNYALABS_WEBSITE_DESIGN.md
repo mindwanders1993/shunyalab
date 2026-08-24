@@ -31,7 +31,7 @@ graph LR
    *   **Body:** *Inter* (high legibility, neutral, unpretentious).
    *   **Code & Metrics:** *JetBrains Mono* or *Geist Mono*.
 4. **Authenticity Rule:**
-   *   **Strictly Zero Stock Photography:** No generic business suits or fake handshakes. All visuals feature actual project screenshots ([KaizenCodes](https://dev.kaizencodes.com), [Hopping Cars](https://hoppingcars.com)), real code snippets, architecture diagrams, and real team profiles.
+   *   **Strictly Zero Stock Photography:** No generic business suits or fake handshakes. All visuals feature actual project screenshots ([KaizenCodes](https://kaizencodes.com), [Hopping Cars](https://hoppingcars.com)), real code snippets, architecture diagrams, and real team profiles.
 
 ---
 
@@ -106,7 +106,7 @@ graph TD
 *   **Highlights:** High-conversion localized service landing page, Google Ads & Local SEO integration, direct customer capture pipeline, and verifiable local market authority.
 *   **Key Results:** 3x increase in direct phone & WhatsApp leads, fast page load speeds under 800ms.
 
-#### Card B: [KaizenCodes](https://dev.kaizencodes.com) (Enterprise SaaS & AI Learning)
+#### Card B: [KaizenCodes](https://kaizencodes.com) (Enterprise SaaS & AI Learning)
 *   **Category:** AI Engineering, Cloud Data Systems & Developer Platform
 *   **Highlights:** Full-stack Next.js/FastAPI platform featuring automated code evaluation, real-time Markdown Studio with live Mermaid rendering, and resilient multi-agent architecture.
 *   **Key Results:** Production-grade developer ecosystem with robust test coverage (Pytest + Vitest + Playwright).

@@ -23,5 +23,5 @@ description: User Acceptance Testing (UAT) manual testing guide and visual verif
 
 ### 4. External Outbound Links
 - [ ] Hopping Cars case study link opens [https://hoppingcars.com/car-painting-begur-bangalore.html](https://hoppingcars.com/car-painting-begur-bangalore.html).
-- [ ] KaizenCodes case study link opens [https://dev.kaizencodes.com](https://dev.kaizencodes.com).
+- [ ] KaizenCodes case study link opens [https://kaizencodes.com](https://kaizencodes.com).
 - [ ] Team member LinkedIn links open in a new tab with `rel="noopener noreferrer"`.
